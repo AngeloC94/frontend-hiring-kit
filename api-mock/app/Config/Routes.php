@@ -16,3 +16,7 @@ $routes->group('clienti', function($routes){
     $routes->delete('elimina/(:num)', 'Customer::delete/$1');
 
 });
+
+$routes->group('vendite', function($routes){
+    $routes->get('elenco', 'Practice::index');
+});
