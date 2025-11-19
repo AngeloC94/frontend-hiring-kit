@@ -1,0 +1,20 @@
+meta {
+  name: clienti > delete
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:8080/clienti/elimina/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 1
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,23 @@
+meta {
+  name: clienti > create
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/clienti/crea
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Test",
+    "email": "test@contoso.com"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,16 @@
+meta {
+  name: clienti > list
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/clienti
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
