@@ -1,3 +1,7 @@
 
 # Client
 client/
+
+# Data files for API mock
+api-mock/public/data/customers.txt
+api-mock/public/data/practices.txt
