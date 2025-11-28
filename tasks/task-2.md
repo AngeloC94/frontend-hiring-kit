@@ -22,7 +22,7 @@ Sviluppare un'applicazione React.js per l'inserimento di un nuovo cliente su di 
   - Telefono (opzionale)
   - Indirizzo (opzionale)
 - Validazione dei campi obbligatori
-- Inviare i dati all'endpoint: `POST http://localhost:8080/clienti/inserisci`
+- Inviare i dati all'endpoint: `POST http://localhost:8080/clienti/crea`
 - Se l'inserimento va a buon fine, l'endpoint restituisce i dati del cliente inserito
 - Dopo l'inserimento con successo, aggiungere i dati ottenuti all'elenco dei clienti inseriti
 - Gestire eventuali errori e mostrare messaggi appropriati
@@ -31,9 +31,9 @@ Sviluppare un'applicazione React.js per l'inserimento di un nuovo cliente su di 
 
 Base URL: `http://localhost:8080`
 
-| Metodo | Endpoint             | Descrizione                |
-| ------ | -------------------- | -------------------------- |
-| POST   | `/clienti/inserisci` | Inserisce un nuovo cliente |
+| Metodo | Endpoint          | Descrizione                |
+| ------ | ----------------- | -------------------------- |
+| POST   | `/clienti/crea` | Inserisce un nuovo cliente |
 
 ## Requisiti Aggiuntivi
 
